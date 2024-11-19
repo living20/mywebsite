@@ -1,0 +1,60 @@
+.kanban-board {
+    display: flex;
+    gap: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  
+  .ticket-list {
+    background: #545d66;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 0;
+  }
+  
+  .ticket-list h3 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+  }
+  
+  .ticket-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ticket-list li {
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket-list .card-id {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    background-color: #e7e7e7;
+    
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  .ticket-list .card-title {
+    margin: 0;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  .kanban-board {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  

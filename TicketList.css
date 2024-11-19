@@ -1,0 +1,52 @@
+.ticket-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust the gap between ticket items if necessary */
+  }
+  
+  .ticket-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-list-header h2 {
+    margin: 0;
+  }
+  
+  .ticket-count {
+    background-color: #ddd;
+    border-radius: 50%;
+    padding: 5px 10px;
+  }
+  
+/* src/components/TicketList.css */
+
+.ticket-list {
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e1e4e8;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .ticket-count {
+    font-size: 0.875rem;
+    color: #6c757d;
+  }
+  
+  .list-group-item {
+    padding: 10px 15px;
+  }
+  

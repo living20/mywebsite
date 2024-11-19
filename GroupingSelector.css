@@ -1,0 +1,69 @@
+.grouping-selector {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .dropdown-button {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .dropdown-button:focus + .dropdown-content,
+  .dropdown-content:hover {
+    display: block;
+  }
+  
+  .selector-group {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .selector-group label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .selector-group select {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-select {
+    width: auto;
+  }
+
+  .dropdown-content {
+    background-color: #f4f5f7; /* Set the background color to match the specified image */
+    padding: 0.5rem; /* Add padding for better spacing */
+    border-radius: 0.25rem; /* Add border-radius to match the design */
+  }
